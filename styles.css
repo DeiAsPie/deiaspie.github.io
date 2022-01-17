@@ -1,0 +1,130 @@
+html {
+  font-family: monospace, monospace;
+  font-style: normal;
+  font-size: calc(1em + 0.25vw);
+  line-height: 1.5;
+  color: #dadada;
+  background-color: #202020;
+  max-width: 700px;
+  min-height: 100vh;
+  margin: auto;
+}
+
+footer img {
+  height:22px;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+a:hover {
+  color: #94ebeb;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #94ebeb;
+  color: inherit;
+  outline-offset: 2px;
+}
+
+.sticker {
+  position: sticky;
+  z-index: 500;
+  padding: 5px;
+  background-color: #202020;
+}
+
+.top {
+  top: 0;
+}
+
+.left {
+  left: 0.5vw;
+}
+
+.right {
+  right: 0.5vw;
+}
+
+.bottom {
+  bottom: 2vh;
+}
+
+.button {
+  width: auto;
+  border: 1px solid #94ebeb;
+  color: inherit;
+  outline-offset: 1px;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: #202020;
+  box-sizing: border-box;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.button a {
+  border-bottom: 0px;
+}
+
+ul {
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    width: 90vw;
+  }
+}
+
+.tree {
+  padding: 19px;
+}
+
+.tree li {
+  list-style-type: none;
+  padding: 15px 10px 10px 15px;
+  position: relative;
+}
+
+.tree li::before,
+.tree li::after {
+  content: "";
+  left: -20px;
+  position: absolute;
+  right: auto;
+}
+
+.tree li::before {
+  border-left: 1px solid #94ebeb;
+  height: 100%;
+  top: 0;
+}
+
+.tree li::after {
+  border-top: 1px solid #94ebeb;
+  top: 30px;
+  width: 25px;
+}
+
+.tree > ul > li::before,
+.tree > ul > li::after {
+  border: 0;
+}
+
+.tree li:last-child::before {
+  height: 30px;
+}
