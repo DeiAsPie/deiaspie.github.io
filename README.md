@@ -1,1 +1,1 @@
-# deiaspie.github.io
+# Yet Another Educational Resource
