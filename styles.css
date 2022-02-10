@@ -10,6 +10,11 @@ html {
   margin: auto;
 }
 
+.glassy{
+  filter: opacity(90%);
+  backdrop-filter: blur(1rem);
+}
+
 .small-icon {
   height:22px;
 }
