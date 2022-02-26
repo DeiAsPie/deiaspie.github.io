@@ -1,7 +1,7 @@
 html {
   font-family: monospace, monospace;
   font-style: normal;
-  font-size: calc(1em + 0.125vw);
+  font-size: calc(1em + 0.125vmax);
   line-height: 1.5;
   color: #dadada;
   background-color: #202020;
@@ -91,7 +91,7 @@ ul {
 
 @media only screen and (max-width: 480px) {
   html {
-    width: 90vw;
+    width: 90vmax;
   }
 }
 
