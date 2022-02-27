@@ -6,6 +6,7 @@ html {
   color: #dadada;
   background-color: #202020;
   max-width: 700px;
+  width: 90vmax;
   min-height: 100vh;
   margin: auto;
 }
@@ -91,7 +92,8 @@ ul {
 
 @media only screen and (max-width: 480px) {
   html {
-    width: 90vmax;
+    width: 85vmax;
+    font-size: calc(1.5em + 0.125vmax);
   }
 }
 
