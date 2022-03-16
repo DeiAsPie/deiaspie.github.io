@@ -36,6 +36,11 @@ a:hover {
   color: #94ebeb;
 }
 
+.inverted {
+  -webkit-filter: invert(.75);
+          filter: invert(.75);
+}
+
 a {
   text-decoration: none;
   border-bottom: 1px solid #94ebeb;
